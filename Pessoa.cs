@@ -37,4 +37,21 @@ class Pessoa {
     altura = value;
   }
 
+  public void envelhercer(){
+    idade += 1;
+  }
+
+  public void engordar(){
+    peso += 1;
+  }
+
+  public void emagrecer(){
+    peso -= 1;
+  }
+
+  public void crescer(){
+    altura += 0.2;
+  }
+
+
 }
