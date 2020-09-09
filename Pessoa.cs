@@ -38,6 +38,9 @@ class Pessoa {
   }
 
   public void envelhercer(){
+    if( idade < 21 ){
+      crescer();
+    }
     idade += 1;
   }
 
@@ -50,7 +53,7 @@ class Pessoa {
   }
 
   public void crescer(){
-    altura += 0.2;
+    altura += 0.5;
   }
 
 
